@@ -22,8 +22,8 @@
                     </button>
                 </form>
             @endauth
-            <a href="https://www.bubbstore.com.br" target="spatie">
-                © bubb store
+            <a href="https://www.bubb.com.br">
+                © bubb web studio
             </a>
         </footer>
     </section>
@@ -32,8 +32,5 @@
         <div class="article">
             {{ $contents }}
         </div>
-        <footer class="article__footer">
-            <p>Spotted a typo? See something wrong? <a href="{{ $editUrl }}" target="_blank">Edit this page on GitHub</a>.</p>
-        </footer>
     </main>
 @endcomponent
