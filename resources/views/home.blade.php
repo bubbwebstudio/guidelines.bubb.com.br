@@ -24,7 +24,7 @@
                 O conteúdo dessa documentação existe para nós mesmos - mais importante ainda, para o nosso futuro - e para dar aos futuros colegas uma referência de como fazemos as coisas e suas peculiaridades. As diretrizes abrangem fluxo de trabalho, estilo de código e outras coisas que consideramos importantes. 
             </p>
             <p>
-                Todas as páginas estão em nosso <a href="https://github.com/bubb/guidelines.bubb.com.br" target="bubb">GitHub</a>. Pull requests são bem-vindos, sempre.
+                Todas as páginas estão em nosso <a href="https://github.com/bubbwebstudio/guidelines.bubb.com.br" target="bubb">GitHub</a>. Pull requests são bem-vindos, sempre.
             </p>
         </section>
         <nav class="home__index">
