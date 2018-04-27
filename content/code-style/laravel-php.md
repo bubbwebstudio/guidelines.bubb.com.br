@@ -115,13 +115,11 @@ public function getPage($url)
 {
     $page = $this->pages()->where('slug', $url)->first();
 
-    if (! $page) 
-    {
+    if (!$page)  {
         return null;
     }
 
-    if ($page['private'] && ! Auth::check()) 
-    {
+    if ($page['private'] && ! Auth::check()) {
         return null;
     }
 
@@ -132,12 +130,10 @@ public function getPage($url)
 public function getPage($url)
 {
     $page = $this->pages()->where('slug', $url)->first();
-    if (! $page) 
-    {
+    if (! $page) {
         return null;
     }
-    if ($page['private'] && ! Auth::check()) 
-    {
+    if ($page['private'] && ! Auth::check()) {
         return null;
     }
     return $page;
@@ -163,8 +159,7 @@ Não adicione uma linha extra entre os `{}`.
 
 ```php
 // Bom
-if ($foo) 
-{
+if ($foo) {
     $this->foo = $foo;
 }
 
@@ -308,7 +303,7 @@ Todas as validações customizadas devem seguir o padrão snake_case.
 
 ```php
 Validator::extend('organization_type', function ($attribute, $value) {
-    return OrganisationType::isValid($value);
+    return OrganizationType::isValid($value);
 });
 ```
 
