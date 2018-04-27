@@ -2,9 +2,10 @@
 
 ## Repositório Git
 
-Crie ou clone o repositório do [Bitbucket](https://bitbucket.org) do projeto que você irá trabalhar.
+Crie ou clone o repositório do [Bitbucket](https://bitbucket.org) ou [GitHub](https://github.com) do projeto que você irá trabalhar.
 
 `git clone git@bitbucket.org/bubb/nome-do-projeto`
+`git clone git@github.com/bubb/nome-do-projeto`
 
 ## Configurações
 

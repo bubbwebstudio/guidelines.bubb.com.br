@@ -22,6 +22,10 @@
 
 O estilo de código deve seguir o padrão [PSR-1](http://www.php-fig.org/psr/psr-1/) e [PSR-2](http://www.php-fig.org/psr/psr-2/).
 
+## CodeSniffer
+
+É muito recomendável o uso do [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) para automatizar a padronização do estilo do seu código.
+
 ## Docblocks
 
 Não use docblocks para métodos que podem ser completamente sugeridos por tipo (a menos que você precise de uma descrição).
