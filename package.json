@@ -12,6 +12,7 @@
   "dependencies": {
     "babel-loader": "^7.0.0",
     "babel-preset-env": "^1.4.0",
+    "cross-env": "^5.1.6",
     "highlight.js": "^9.1.0",
     "laravel-mix": "^1.4.0",
     "postcss": "^5.0.19",
@@ -20,6 +21,7 @@
     "postcss-loader": "^1.2.2",
     "stylelint": "^8.0.0",
     "stylelint-config-standard": "^16.0.0",
-    "turbolinks": "^5.0.0"
+    "turbolinks": "^5.0.0",
+    "yarn": "^1.7.0"
   }
 }
