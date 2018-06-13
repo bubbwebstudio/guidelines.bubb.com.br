@@ -16,7 +16,22 @@ Nós usamos uma sintaxe muito semelhante ao estilo BEM, porém adaptado da melho
 A fórmula para os nossos ingredientes fica mais ou menos assim:
 
 ```css
-.componente                      /* Componento */   
-.componente__elemento             /* Filho */
-.componente__elemento__elemento    /* Neto */
+.componente                     /* Componente */   
+.componente__elemento           /* Filho */
+.componente__elemento__elemento /* Neto */
+
+.itens                          /* Use o plural se possível */
+.item
+
+-modificador                    / * Modificador de estilo único, pode ser atrelado a um elemento para modificar o mesmo. * /
+
+.helper-propriedade             / * Ajudante genérico de propriedades css (por exemplo, 'h-pull-left', 'h-text-left') * /
+
+.js-trigger                     / * Gancho que está atrelado à alguma função de Javascript. Não é usado para estilo * /
+```
+
+## .Componente e .Componente__elemento
+
+```html
+<div class="news">
 ```
