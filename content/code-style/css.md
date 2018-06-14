@@ -3,7 +3,7 @@
 - [Pré Processador](#pre-processador)
 - [BEM-B](#bem-b)
 - [COMPONENTES](#componente)
-- [Code style](#code-style)
+- [Code](#code)
 - [File structure](#file-structure)
 - [Inspiration](#inspiration)
 
