@@ -11,3 +11,5 @@ npm-debug.log
 yarn-error.log
 .env
 .php_cs.cache
+yarn.lock
+package.json

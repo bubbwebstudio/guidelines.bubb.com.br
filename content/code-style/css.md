@@ -33,5 +33,10 @@ A fórmula para os nossos ingredientes fica mais ou menos assim:
 ## .Componente e .Componente__elemento
 
 ```html
-<div class="news">
+<div class="noticias">
 ```
+
+* O componente pode ser único ou pode ser reaproveitado, fazendo parte de um padrão
+* Os filhos são separadas por __, (por exemplo, .noticias__titulo)
+* Tudo em letras minúsculas, pode conter - no nome
+* Evite mais de 3 níveis de profundidade
