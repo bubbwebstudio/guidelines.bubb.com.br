@@ -2,7 +2,7 @@
 
 - [Pré Processador](#pre-processador)
 - [BEM-B](#bem-b)
-- [DOM structure](#dom-structure)
+- [COMPONENTES](#componente)
 - [Code style](#code-style)
 - [File structure](#file-structure)
 - [Inspiration](#inspiration)
