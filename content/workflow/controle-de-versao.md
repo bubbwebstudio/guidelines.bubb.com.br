@@ -1,6 +1,6 @@
 # Controle de versão
 
-Utilizamos o Git em todos os nossos projetos, onde a maioria está no [Bitbucket](https://bitbucket.org). 
+Utilizamos o Git em todos os nossos projetos, onde a maioria está no [GitLab](https://about.gitlab.com). 
 
 ## Nomes de repositórios
 
@@ -16,15 +16,31 @@ Sites que serão subdomínios:
 
 ## Branches
 
-Se você precisar alterar algo em um projeto que já esteja em produção, lembre-se de criar um branch separado para trabalhar em sua feature. **Nunca, em hipótese alguma, faça modificações no branch master.**
+Se você precisar alterar algo em um projeto que já esteja em produção, lembre-se de criar um branch separado, para trabalhar em sua feature. **Nunca, em hipótese alguma, faça modificações no branch master.**
+
+Nós usamos uma padronização para darmos nomes aos branches.
+
+### Bugs
+
+Para bugs, utilizamos o padrão do prefixo "`bug/`" e em seguida o id da issue no GitLab refente a esse bug.
+
+- Ruim: `bugs` , `bug`.
+- Bom: `bug/123`.
+
+### Features
+
+Para features, utilizaremos como. padrão o prefixo "`feature/`" e em seguida o nome da nova feature.
+
+- Ruim: `foo`.
+- Bom: `feature/foo`.
 
 ### Projetos em desenvolvimento
 
 Projetos que ainda não foram para produção podem conter dois branches principais: `master` ou `dev`. Aconselhamos sempre trabalhar no branch `dev`.
 
-### Pull requests
+### Merge requests
 
-Sempre quando estiver trabalhando em um projeto em produção, você deverá criar um [**Pull Request**](https://www.atlassian.com/git/tutorials/making-a-pull-request) com a sua feature/fix para o Bitbucket. O Pull Request será analisado pelo time e pode ser aprovado ou não.
+Sempre quando estiver trabalhando em um projeto em produção, você deverá criar um [**Merge Request**](https://docs.gitlab.com/ee/gitlab-basics/add-merge-request.html) com a sua feature/fix para o GitLab. O Merge Request será analisado pelo time e pode ser aprovado ou não.
 
 ## Commits
 
